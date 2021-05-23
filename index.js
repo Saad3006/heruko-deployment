@@ -6,4 +6,4 @@ app.get('/', (req, res) => {
     res.send('Hello World! welcome to first deployement')
 })
 
-app.listen(port || 3000)
+app.listen(port || 3000, () => console.log("running sucessfully"))
